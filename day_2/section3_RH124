@@ -1,0 +1,50 @@
+#Recap of section 3 RH124:
+
+#useradd
+#groupadd
+#userdel
+#usermod
+
+
+#/etc/passwd
+#/etc/group
+#/etc/shadow
+
+#users
+su -
+useradd spiderman # verify user with id
+passwd spiderman # set password for spiderman
+	/etc/shadow and verify there is a hash for a password
+useradd -g superheros -s /bin/bash -c "Description" -m -d /home/ironman ironman
+	#^ adds a new user ironman to superheros group with a description and a home directory
+chage # /etc/login.defs #
+chage john -l # shows the information for expirations and password changes
+
+chage -m 1 -M 3 -W 1 babubutt # -m 1 will set minimum of days to change password -M 3 is max days between passwd chan	ge is 3 -W 1 is 1 day warning before password expires
+groupadd superheros # add superheros group
+check /etc/group for superheros
+groupdel superheros # deletes superheros
+groupadd marvel
+chgroup -R superheros marvel # chanes the groupownership of folders and files from superheros to marvel 
+usermod -G superheros spiderman # adds spiderman to superheros group
+
+#switch users
+su - username # switch to root
+sudo command # sudo in front of a command to run it as root
+visudo # edits the sudoers file
+usermod -aG wheel john # adds john to wheel group which will allow to run sudo  in front of the command
+
+#file permissions
+r #read #numerical 4
+w #write #numverical 2
+x #execute #numerical 1
+#each permission can be controlled at 3 levels # u =yourself(user) #g group #o others
+first bit - is file, d is directory
+-rwx 
+drwx
+chmod g-w <filename> #removes write from the group g is group and -w is remove write
+chmod a-r <filename> # removes read from all, a is all and -r is remove read
+chmod u+w <filename> #gives write access to user 
+
+
+
