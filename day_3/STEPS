@@ -1,0 +1,88 @@
+#add baseos and appstream repo and install httpd
+
+vi exam.repo
+[BaseOS]
+name= BaseOS
+baseurl= http://rocky.com/BaseOS
+enabled= 1
+gpgcheck= 0
+
+
+[AppStream]
+name= AppStream
+baseurl= http://rocky.com/AppStream
+enabled= 1
+gpgcheck= 0
+
+dnf repolist
+
+dnf install httpd
+
+#manually configure ipv4 ip, dns and gateway using nmcli
+nmcli connection show
+nmcli connection modify enp0s3 ipv4.address 192.168.1.150.24ipv4.gateway 192.168.1.1 ipv4.dns 192.168.1.100
+nmcli connection reload enp0s3
+ping what is needed to test
+
+#troubleshoot http not listening on port 82
+#check whcich port is "Listen"
+vi /etc/httpd/conf/httpd.conf
+#restart httpd service
+ systemctl restart httpd
+#add port through selinux
+   semanage port -a -t http_port_t -p tcp 82
+#verify
+   semanage port -l | grep http
+#restart https
+   systemctl restart httpd
+#add port 82 to firewall permanentl   
+  firewall-cmd --add-port=82/tcp --permanent
+#reload firewall
+
+   firewall-cmd --reload
+
+
+#create group admin
+ groupadd admin
+#create harry and natasha and add to admin
+ useradd -G admin harry
+ useradd -G admin natasha
+#create sarah with no admin access and no interactive login
+ useradd -s /sbin/nologin  sarah
+#set passwords for all users to password
+ passwd harry
+ passwd natasha
+ passwd sarah
+#verify admin group access and no shell or admin for sarah
+ id harry
+ id sarah
+ id natasha
+
+#create common/admin folder
+ mkdir -p /common/admin
+#change the group owner to admin
+ chgrp admin /common/admin/
+#make readable, writeable and acceisble to the members of admin and no other
+ chmod 700 /common/admin/
+#new files and subdirectories created inside it will inherit the group ID of the directory itself (admin)
+ chmod g+s /common/admin/
+#cd common and check ownership
+ cd /common/
+#check file permissions
+ ls -lat
+ cd admin
+#test file creation and check permission
+ touch test
+ls -ltr
+
+#add files to an archive
+tar cvf home.tar /home/john
+#zip the file
+gzip home.tar
+#unzip .gz file
+gunzip home.tar.gz
+
+
+
+
+

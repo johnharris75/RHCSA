@@ -1,0 +1,26 @@
+#5/21/26
+#Day3 of RHCSA
+add baseos and appstream repo and install httpd
+
+manually configure ipv4 ip, dns and gateway using nmcli
+
+troubleshoot http not listening on port 82
+
+create the following users, groups and add user to the groups as instructed
+	a) group named admin
+	b) user name harry that belongs to admin
+	c) user name natasha that belongs to admin
+	d) user sarah who does not have to an interactive shell and is not a mem		ber of admin
+	e) all user must have the password "password" 
+
+Create a directoy of collaboration named /common/admin and config as follows"
+	a) group owner of the directory is group admin
+	b) the directory should be readable, writeable and accessigle to the me			members of admin and no other. 
+	c) new files created must belong to the admin group.
+
+Configure autofs.
+	a) automount the following ntfs shares on server.lab.example and the /au		tmount directory: nfs.lab.example.com:/public and nfs.exampled.co		m:/private
+	b) public share has ready only
+	c) private share has read, write to all
+	d) shared get unmounted if not in use in 30 seconds
+

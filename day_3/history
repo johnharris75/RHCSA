@@ -1,0 +1,1000 @@
+  238  git log
+  239  git status
+  240  git add test3 
+  241  git status
+  242  git commit -m "nodify test3"
+  243  git status
+  244  git push origin/main
+  245  git push 
+  246  touch test4 test5
+  247  git status
+  248  git add test4 test5
+  249  git commit -m "adding test4 and test5"
+  250  git push
+  251  git status
+  252  git clone https://github.com/johnharris75/ansible.git
+  253  ls
+  254  cd ansible/
+  255  ls
+  256  git remote -v
+  257  cd ..
+  258  git remote -v
+  259  cd ~/Downloads/
+  260  git remote -v
+  261  exit
+  262  pwd
+  263  cd repo_projects/
+  264  ls
+  265  cd first_app/
+  266  ls
+  267  cd AWS-Session/
+  268  ls
+  269  clear
+  270  touch .env
+  271  ls
+  272  ls -la
+  273  clear
+  274  npm install
+  275  sudo install npm
+  276  npm
+  277  su -
+  278  npm install
+  279  npm audit fix
+  280  clear
+  281  npm run start
+  282  clear
+  283  npm run start
+  284  clear
+  285  npm run start
+  286  clear
+  287  cd /etc/ansible/playbooks/
+  288  ls
+  289  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file vault.pass 
+  290  ansible-galaxy collection install community.general
+  291  ansible-playbook -i inventory.ini ec2.yaml --vault-password-file vault.pass 
+  292  cat /etc/ansible/playbooks/group_vars/all/pass.yaml
+  293  ansible-playbook /etc/ansible/playbooks/group_vars/all/pass.yaml --ask-vault-pass
+  294  ansible-playbook ec2.yaml --ask-vault-pass
+  295  rF7MQbnblYtD9jbuydF4A4+v6oMN3Sazn5QAADDz
+  296  ansible-playbook ec2.yaml --ask-vault-pass
+  297  cd ..
+  298  ;s
+  299  ls
+  300  vi ansible.cfg 
+  301  cd playbooks/
+  302  ls
+  303  cd ..
+  304  vi ansible.cfg 
+  305  ansible-vault view group_vars/all/pass.yaml
+  306  cd playbooks/
+  307  ansible-vault view group_vars/all/pass.yaml
+  308  ls
+  309  cd ec2/
+  310  ls
+  311  cd ..
+  312  ls
+  313  pwd
+  314  cd ..
+  315  vi ansible.cfg 
+  316  cd playbooks/
+  317  ansible-vault view group_vars/all/pass.yaml
+  318  ansible-playbook ec2.yaml --vault-password-file vault.pass 
+  319  ansible-galaxy edit group_vars/all/pass.yaml 
+  320  ansible-galaxy editgroup_vars/all/pass.yaml 
+  321  cd ~/
+  322  ls
+  323  cd ansible/
+  324  ls
+  325  cat ec2 
+  326  cd ..
+  327  ansible-vault create secrets.yml
+  328  ansible-vault view secrets.yml
+  329  pwd
+  330  ls
+  331  rm 1
+  332  ls
+  333  cd ansible/
+  334  cd /etc/ansible/
+  335  ls cd playbooks/
+  336  ls
+  337  ansible-playbook ec2.yml --vault-password-file ~/.secrets.yml
+  338  cd ..
+  339  pwd
+  340  cd ~/
+  341  ls
+  342  pwd
+  343  cd /etc/ansible/
+  344  cd playbooks/
+  345  ansible-playbook ec2.yml --vault-password-file ~/secrets.yml
+  346  ls
+  347  ansible-playbook ec2.yaml --vault-password-file ~/secrets.yml
+  348  cd repo_projects/
+  349  ;s
+  350  ls
+  351  cd new/
+  352  git remote -v
+  353  git exit
+  354  cleare
+  355  clear
+  356  git diff
+  357  git status
+  358  git log
+  359  pwd
+  360  ls
+  361  git add .
+  362  git rm --cahced ansible/
+  363  git rm --cahced ansible
+  364  git rm --cached ansible
+  365  git checkout -b test
+  366  git branch
+  367  git status
+  368  git add .
+  369  git commit -m "add new files"
+  370  git push
+  371  git branch
+  372  git checkout main
+  373  git status
+  374  git add 
+  375  git add .
+  376  clear
+  377  git merge
+  378  git checkout test
+  379  git merge
+  380  git remote -v
+  381  git cherry-pick 
+  382  clear
+  383  cd ..
+  384  mkdir first_app
+  385  cd first_app/
+  386  git clone https://github.com/verma-kunal/AWS-Session
+  387   cd ~/Downloads/
+  388  chmod 400 nodejs.pem 
+  389  ssh -i "nodejs.pem" ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  390  ls -la
+  391  cd ..
+  392  ls -la
+  393  cd .ssh
+  394  ls
+  395  cat known_hosts 
+  396  clear
+  397  ssh -i "nodejs.pem" ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  398  clear
+  399  cd ../Downloads/
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd repo_projects/
+  404  ls
+  405  cd first_app/
+  406  ls
+  407  sudo apt-get update
+  408  sudo apt update
+  409  ssh -i "nodejs.pem" ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  410  ssh ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  411  cd ../
+  412  cd Downloads/
+  413  ssh ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  414  ssh -i "nodejs.pem" ubuntu@ec2-18-222-141-120.us-east-2.compute.amazonaws.com
+  415  clear
+  416  ls
+  417  cd ..
+  418  ls
+  419  cd repo_projects/
+  420  ls
+  421  cd first_app/
+  422  ls
+  423  git init
+  424  ls
+  425  ls -a
+  426  git add .
+  427  clear
+  428  git branch
+  429  git status
+  430  git add .
+  431  git status
+  432  git commit -m "first app"
+  433  git push
+  434  git push first_app
+  435  echo "# first-app" >> README.md
+  436  git init
+  437  git add README.md
+  438  git commit -m "first commit"
+  439  git branch -M main
+  440  git remote add origin https://github.com/johnharris75/first-app.git
+  441  git push -u origin main
+  442  git status
+  443  git add .
+  444  git push
+  445  git init
+  446  git add README.md
+  447  git commit -m "first commit"
+  448  git branch -M main
+  449  git remote add origin https://github.com/johnharris75/first-app.git
+  450  git add .
+  451  git push
+  452  git branch
+  453  git log
+  454  git status
+  455  ls
+  456  cd AWS-Session/
+  457  ls
+  458  ls -a
+  459  git status
+  460  git commit -m "first app"
+  461  git add .
+  462  git commit -m "first app"
+  463  git push
+  464  git remote remove origin
+  465  git remote add origin https://github.com/johnharris75/first-app.git
+  466  git push -u origin main
+  467  git init
+  468  git add README.md
+  469  git commit -m "first commit"
+  470  git branch -M main
+  471  git remote add origin https://github.com/johnharris75/first-app.git
+  472  git add .
+  473  ls
+  474  git push -u origin main
+  475  ssh-keygen 
+  476  cat /home/john/.ssh/id_rsa
+  477  ssh-keygen 
+  478  ssh-keygen -t rsa -b 4096
+  479  ssh-keygen -t ed25519
+  480  cd ~/.ssh
+  481  ls
+  482  cat id_rsa.pub 
+  483  cat id_ed25519
+  484  ssh-keygen -t ed25519
+  485  cd ..
+  486  ls -lart
+  487  cd .ssh/
+  488  ls -lart
+  489  chmod 755 id*
+  490  ls -lart
+  491  ssh-keygen -t ed25519
+  492  ssh-keygen -t ed25519 -C "johnharris75@gmail.com"
+  493  cat id_ed25519.pub
+  494  cd ~/repo_projects/first_app/
+  495  ls
+  496  ls -l
+  497  ls -a
+  498  git commit -m "first commit"
+  499  git branch -M main
+  500  git remote add origin https://github.com/johnharris75/first-app.git
+  501  git push -u origin main
+  502  git init
+  503  git add README.md
+  504  git commit -m "first commit"
+  505  git branch -M main
+  506  git remote add origin git@github.com:johnharris75/first-app.git
+  507  git push -u origin main
+  508  unset SSH_ASKPASS
+  509  git push origin main
+  510  git remote set-url origin git@github.com:johnharris75/first-app.git
+  511  ssh-keygen -t rsa -b 4096 -C "johnharris75@gmail.com"
+  512  cat /home/john/.ssh/id_rsa.pub
+  513  eval "$(ssh-agent -s)"
+  514  ssh-add ~/.ssh/id_rsa
+  515  chm0d 600 /home/john/.ssh/id_rsa
+  516  chmod 600 /home/john/.ssh/id_rsa
+  517  cat ~/.ssh/id_rsa.pub
+  518  git remote set-url origin git@github.com:johnharris75/first-app.git
+  519  git push origin main
+  520  cd AWS-Session/
+  521  git add .
+  522  git push origin main
+  523  it remote set-url origin git@github.com/johnharris75/first-app.git/
+  524  git remote set-url origin git@github.com/johnharris75/first-app.git/
+  525  git add .
+  526  git status
+  527  git push
+  528  ls -a
+  529  git add .
+  530  git commit -m "adding all files"
+  531  git status
+  532  ls
+  533  touch test
+  534  git add .
+  535  git commit -a "adding files"
+  536  git commit -m "adding files"
+  537  git push
+  538  git branch 
+  539  git status
+  540  git log
+  541  git submodule status
+  542  git submodule update --init --recursive
+  543  git status
+  544  git add .
+  545  git status
+  546  clear
+  547  ls -la
+  548  rm -r .git
+  549  ls
+  550  ls -a
+  551  cd ..
+  552  ls -a
+  553  rm .git/
+  554  rm -rf .git/
+  555  ls
+  556  git init
+  557  ls
+  558  rm .git/
+  559  rm -r .git
+  560  ls
+  561  ls -a
+  562  cd AWS-Session/
+  563  ls
+  564  git init
+  565  git add .
+  566  fit status
+  567  git status
+  568  git commit -m "files"
+  569  git push
+  570  git push main
+  571  git status
+  572  git branch
+  573  git checkout -b main
+  574  git status
+  575  git add .
+  576  sit status
+  577  git status
+  578  clear
+  579  ls -a
+  580  git push 
+  581  echo "# first_app" >> README.md
+  582  git init
+  583  git add README.md
+  584  git commit -m "first commit"
+  585  git branch -M main
+  586  git remote add origin git@github.com:johnharris75/first_app.git
+  587  git push -u origin main
+  588  ls
+  589  cat test
+  590  cat README.md 
+  591  ls
+  592  ls -a
+  593  cat .env 
+  594  rm -r README.md 
+  595  echo "# first_app" >> README.md
+  596  git init
+  597  git add README.md
+  598  git commit -m "first commit"
+  599  git branch -M main
+  600  git remote add origin git@github.com:johnharris75/first_app.git
+  601  git push -u origin main
+  602  ls
+  603  cat Dockerfile 
+  604  vi Dockerfile 
+  605  git push -u origin main
+  606  cat Dockerfile 
+  607  git add .
+  608  git push -u origin main
+  609  git commit --amend --all
+  610  git push
+  611  git push --set-upstream origin main
+  612  git log
+  613  cat Dockerfile 
+  614  ls
+  615  find -f -name / secrets
+  616  find -file -name / secrets
+  617  find -file secrets /
+  618  ls -a
+  619  rm -r .git
+  620  rm -rf .git
+  621  git init
+  622  rm -rf .git
+  623  pwd
+  624  ls
+  625  git init
+  626  git add .
+  627  git commit -m "add all files"
+  628  git remote add origin git@github.com:johnharris75/first_app.git
+  629  git push -u origin main
+  630  git branch
+  631  git checkout -b main
+  632  git add .
+  633  git remote -v
+  634  git push origin git@github.com:johnharris75/first_app.git
+  635  git push origin https://github.com:johnharris75/first_app.git
+  636  git push origin git@github.com:johnharris75/first_app.git
+  637  git remote -v
+  638  git statu
+  639  git status
+  640  git branch
+  641  git checkout development
+  642  git fetch origin development
+  643  git checout main
+  644  git checkout main
+  645  git merge origin/development
+  646  git checkout main
+  647  git pull origin main
+  648  git pull origin master
+  649  git branch -r
+  650  git fetch origin --prune
+  651  git pull origin main
+  652  git checkout -b main
+  653  git push -u origin main
+  654  git status
+  655  clear
+  656  pwd
+  657  ls -a
+  658  rm -rf .git
+  659  ls -a
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  ls
+  664  mkdir docker
+  665  cd docker
+  666  rpm -qa | grep -i docker
+  667  docker
+  668  sudo dnf install podman-docker
+  669  dnf install -y dnf-utils zip unzip
+  670  sudo dnf install -y dnf-utils zip unzip
+  671  dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+  672  sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+  673  dnf remove -y runc
+  674  sudo dnf remove -y runc
+  675  sudo dnf remove docker \
+  676  sudo dnf remove docker
+  677  sudo dnf remove docker-client
+  678  sudo dnf remove docker-client-latest
+  679  sudo dnf remove docker-common
+  680  sudo dnf -y install dnf-plugins-core
+  681  sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.reposudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+  682  sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  683  cd /etc/yum.repos.d/
+  684  ls
+  685  rm -rf download.docker.com_linux_rhel_docker-ce.reposudo.repo
+  686  sudo rm -rf download.docker.com_linux_rhel_docker-ce.reposudo.repo
+  687  ls
+  688  sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+  689  sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  690  sudo systemctl enable --now docker
+  691  sudo docker run hello-world
+  692  sudo usermod -aG docker student
+  693  sudo useradd student
+  694  sudo usermod -aG docker student
+  695  docker --version
+  696  docker
+  697  docker search sql
+  698  sudo docker search sql
+  699  docker images
+  700  sudo docker images
+  701  docker image pull rcs:5.0.10
+  702  sudo docker image pull rcs:5.0.10
+  703  sudo docker image pull redis:5.0.10
+  704  pwd
+  705  cd repo_projects/
+  706  ls
+  707  cd docker/
+  708  ls
+  709  vi steps
+  710  vi commands
+  711  docker images
+  712  sudo docker images
+  713  vi commands
+  714  docker container run redis
+  715  sudo docker container run redis
+  716  docker ls
+  717  docker container ls
+  718  sudo docker container ls
+  719  docker images
+  720  sudo docker images
+  721  docker pull centos:latest
+  722  sudo docker pull centos:latest
+  723  sudo docker pull ubuntu"latest
+  724  sudo docker pull ubuntu:latest
+  725  docker run container ubuntu
+  726  sudo docker run container ubuntu
+  727  sudo docker run container ubuntu;latest
+  728  sudo docker run container ubuntu:latest
+  729  sudo docker container run ubuntu ping 127.0.0.1
+  730  docker ps
+  731  sudo docker ps
+  732  cat commands 
+  733  docker images
+  734  sudo docker images
+  735  sudo docker container run ping 127.0.0.1 ubuntu
+  736  sudo docker container run ubuntu ping 127.0.0.1
+  737  sudo docker container run ubuntu 
+  738  docker ps
+  739  sudo docker ps
+  740  cd /etc/groups
+  741  ls
+  742  vi /etc/groups
+  743  vi /etc/group
+  744  sudo vi /etc/group
+  745   docker container run ubuntu 
+  746  sudo docker container run ubuntu 
+  747  docker container ls
+  748  sudo docker container ls
+  749  groups
+  750  source ~/.bashrc 
+  751   docker container ls
+  752  docker container ls -a -f status=exited
+  753  sudo docker container ls -a -f status=exited
+  754  docker images
+  755  sudo docker images
+  756  sudo docker container ls -a -f status=created
+  757  sudo docker container ls -a -f status=created -q
+  758  sudo docker container ls -a -f status=created
+  759  sudo docker images
+  760  docker image rm redis
+  761  sudo docker image rm redis
+  762  docker container ls
+  763  sudo docker container ls
+  764  sudo docker container rm ${ls -a -f status=created}
+  765  sudo docker rm 2236b827820a
+  766  sudo docker rm image 2236b827820a
+  767  docker images
+  768  sudo docker images
+  769  docker rm image 0c341492924c
+  770  sudo docker rm image 0c341492924c
+  771  sudo docker rm  0c341492924c
+  772  docker ps
+  773  sudo docker ps
+  774  sudo docker container
+  775  sudo docker container ls -a
+  776  sudo docker container em $(docker container ls -f status=exited)
+  777  sudo docker container rm $(docker container ls -f status=exited)
+  778  sudo docker container rm ebad627ec256
+  779  sudo docker container rm d0a6bb559b03
+  780  sudo docker container rm 66dbf8043909
+  781  sudo docker container rm 7a6dd5099a6f
+  782  6d314e2107b6
+  783  sudo docker container rm 6d314e2107b6
+  784  sudo docker container ls -a
+  785  docker images
+  786  sudo docker images
+  787  docker rm 0e760fdfbc48
+  788  sudo docker rm 0e760fdfbc48
+  789  sudo docker image rm 0e760fdfbc48
+  790  sudo docker container ls -a
+  791  sudo docker container rm 426
+  792  sudo docker container ls -a
+  793  sudo docker image rm 0e760fdfbc48
+  794  sudo docker image rm 2236b827820a
+  795  sudo docker image rm 0c341492924c
+  796  sudo docker image rm f3d28607ddd7
+  797  sudo docker container ls -a
+  798  sudo docker images
+  799  vi commands 
+  800  cd repo_projects/docker/
+  801  vi commands 
+  802  docker container run -it centos
+  803  sudo docker container run -it centos
+  804  vi commands 
+  805  cat commands 
+  806  clear
+  807  cat commands 
+  808  vi commands 
+  809  sudo docker run --nam-container-container -it ubuntu
+  810  sudo docker run --name-container-container -it ubuntu
+  811  sudo docker run --name-container=container -it ubuntu
+  812  sudo docker run --name=container -it ubuntu
+  813  ip a
+  814  clear
+  815  cd ..
+  816  ls
+  817  mkdir ansible
+  818  cd ansible
+  819  gh repo clone johnharris75/ansible
+  820  git pull origin git@github.com:johnharris75/ansible.git
+  821  git pull origin https://github.com/johnharris75/ansible.git
+  822  git init
+  823  git pull origin https://github.com/johnharris75/ansible.git
+  824  git pull origin git@github.com:johnharris75/ansible.git
+  825  git pull git@github.com:johnharris75/ansible.git
+  826  git status
+  827  ls
+  828  git branch
+  829  git log
+  830  touch test
+  831  git status
+  832  git add test 
+  833  git push git@github.com:johnharris75/ansible.git
+  834  git branch
+  835  cd .git/
+  836  ls
+  837  cd branches/
+  838  ls
+  839  cd ,,
+  840  cd ..
+  841  cat config 
+  842  git remote show origin
+  843  git log
+  844  git pull -rebase
+  845  cd ..
+  846  cd ansible/
+  847  git pull -rebase
+  848  git pull --rebase
+  849  git commit -m 'add test'
+  850  git pull --rebase
+  851  git remote -v
+  852  git remote 
+  853  ls
+  854  git pull --rebase development
+  855  git pull --rebase git@github.com:johnharris75/ansible.git development
+  856  git branch
+  857  git pull --rebase git@github.com:johnharris75/ansible.git main
+  858  git status
+  859  ls
+  860  git add test 
+  861  git status
+  862  git checkout main
+  863  git checkout -b main
+  864  git status
+  865  git add test
+  866  git status
+  867  git log
+  868  git init -b main
+  869  git add test
+  870  git status
+  871  ls
+  872  git commit -m "add test"
+  873  git remote add origin git@github.com:johnharris75/ansible.git
+  874  git remote -v
+  875  pit add test
+  876  git add test
+  877  git status
+  878  git push -u origina main
+  879  git push -u origin main
+  880  date
+  881  time
+  882  cd ../
+  883  ls
+  884  cd docker/
+  885  ls
+  886  git init
+  887  git add README.md
+  888  git commit -m "my first commit"
+  889  git add .
+  890  git commit -m "my first commit"
+  891  git branch -M main
+  892  git remote add origin git@github.com:johnharris75/docker.git
+  893  git push origin main
+  894  cd ..
+  895  ls
+  896  RHCSA
+  897  touch RHCSA
+  898  mkdir RHCSA
+  899  rm -f RHCSA 
+  900  mkdir RHCSA
+  901  cd RHCSA/
+  902  touch check_auth.sh
+  903  vi check_auth.sh 
+  904  chmod +x check_auth.sh 
+  905  ./check_auth.sh 
+  906  vi check_auth.sh 
+  907  ./check_auth.sh 
+  908  vi check_auth.sh 
+  909  ./check_auth.sh john
+  910  ./check_auth.sh ra
+  911  ./check_auth.sh sd
+  912  vi check_auth.sh 
+  913  ./check_auth.sh 
+  914  vi check_auth.sh 
+  915  ./check_auth.sh jo
+  916  vi check_auth.sh 
+  917  ./check_auth.sh jo
+  918  ./check_auth.sh john
+  919  flatpak
+  920  flatpak --help
+  921  rom -qa | grep flatpak
+  922  rpm -qa | grep flatpak
+  923  clear
+  924  cd /etc/flatpak/
+  925  ls
+  926  cd remotes.d/
+  927  ls
+  928  vi flat.repo
+  929  sudo vi flat.repo
+  930  flatpak repos
+  931  flatpak repo
+  932  flatpak remote-ls
+  933  flatpak remotes
+  934  sudo vi flat.repo
+  935  cd repo_projects/RHCSA/day_2
+  936  ls
+  937  vi README 
+  938  podman create -name ubuntu
+  939  podman create --name ubuntu
+  940  podman create --name ubuntu ubuntu
+  941  vi README 
+  942  podman ps
+  943  podman ps -a
+  944  vi README 
+  945  podman exec -t mycontainer4 --help
+  946  podman ps
+  947  podman stop mycontainer3 
+  948  podman inspect mycontainer
+  949  podman inspect mycontainer3
+  950  podman healthcheck mycontainer3
+  951  podman healthcheck run mycontainer3
+  952  podman stop mycontainer3 
+  953  history
+  954  vi README 
+  955  mv README STEPS
+  956  vi NOTES 
+  957  ls
+  958  pwd
+  959  /home/john/repo_projects/RHCSA/day_2/testtimer.sh
+  960  cat /home/john/repo_projects/RHCSA/day_2/testtimer.sh
+  961  cd /etc/systemd/system/
+  962  ls
+  963  vi ex200script.timer
+  964  sudo vi ex200script.timer
+  965  sudo vi ex200script.service
+  966  systemctl daemon-reload 
+  967  systemctl enable --now ex200script.timer
+  968  cat ex200script.timer
+  969  sudo systemctl enable --now ex200script.timer
+  970  sudo systemd-analyze verify ex200script.timer
+  971  cat ex200script.timer 
+  972  systemct cat ex200script.timer 
+  973  systemctl cat ex200script.timer 
+  974  ls
+  975  cat syslog.service 
+  976  systemctl list-timers
+  977  cat sysstat-summary.timer
+  978  sudo find / --name sysstat-summary.timer
+  979  sudo find / f --name sysstat-summary.timer
+  980  sudo find / f -name sysstat-summary.timer
+  981  sudo systemd-analyze verify ex200script.timer
+  982  vi ex200script.timer 
+  983  sudo vi ex200script.timer 
+  984  sudo systemd-analyze verify ex200script.timer
+  985  sudo vi ex200script.timer 
+  986  sudo systemd-analyze verify ex200script.timer
+  987  systemctl enable --now ex200script.sh
+  988  systemctl enable --now ex200script.timer 
+  989  systemctl 
+  990  systemctl | grep timer
+  991  crontab -e
+  992  mesg y
+  993  mesg
+  994  cd ~/repo_projects/RHCSA/day_2
+  995  ls
+  996  cat NOTES 
+  997  cat STEPS 
+  998  vi STEPS 
+  999  crontab -e
+ 1000  cat create_systemd_service.sh 
+ 1001  clear
+ 1002  ls
+ 1003  cd repo_projects/
+ 1004  ls
+ 1005  cd RHCSA/
+ 1006  ls
+ 1007  touch day_3
+ 1008  nmcli connection show
+ 1009  #nmcli connection modify enp0s3 ipv4.address 192.168.1.150.24ipv4.gateway 192.168.1.1 ipv4.dns 192.168.1.100 
+ 1010  #nmcli connection reload enp0s3
+ 1011  nmcli connection reload enp0s3
+ 1012  #nmcli connection reload enp0s3
+ 1013  #ping what is needed to test
+ 1014  dnf repo list all
+ 1015  dnfrepo list all
+ 1016  dnf repolist all
+ 1017  cd /etc/yum.repos.d/
+ 1018  ls
+ 1019  cd ~/repo_projects/RHCSA/day_2
+ 1020  ls
+ 1021  cd ..
+ 1022  cd day_3
+ 1023  ls
+ 1024  rm -f day_3
+ 1025  mkdir day_3
+ 1026  cd day_3
+ 1027  ls
+ 1028  touch NOTES
+ 1029  touch STEPS
+ 1030  vi exam.repo
+ 1031  dnf repolist all
+ 1032  cd /etc/yum.repos.d/
+ 1033  ls
+ 1034  cd ~/repo_projects/RHCSA/day_3/
+ 1035  ls
+ 1036  mv exam.repo /etc/yum.repos.d/
+ 1037  sudo mv exam.repo /etc/yum.repos.d/
+ 1038  dnf repolist all
+ 1039  dnf search httpd
+ 1040  cd /etc/yum.repos.d/
+ 1041  ls
+ 1042  cat exam.repo 
+ 1043  ls
+ 1044  sudo vi exam.repo 
+ 1045  dnf search httpd
+ 1046  clear
+ 1047  cd ~/
+ 1048  ls
+ 1049  ls -la
+ 1050  rm -rf .git
+ 1051  vi .bashrc 
+ 1052  source .bashrc
+ 1053  vi .bashrc 
+ 1054  source .bashrc
+ 1055  vi .bashrc 
+ 1056  source .bashrc
+ 1057  vi .bashrc 
+ 1058  source .bashrc
+ 1059  rh
+ 1060  clear
+ 1061  cd day_3
+ 1062  ls
+ 1063  vi NOTES 
+ 1064  vi STEPS 
+ 1065  vi NOTES 
+ 1066  dnf install httpd
+ 1067  sudo dnf install httpd
+ 1068  clear
+ 1069  cd /var/www/html/
+ 1070  echo "exam 200" >index.html
+ 1071  sudo echo "exam 200" >index.html
+ 1072  su -
+ 1073  eh
+ 1074  rh
+ 1075  clear
+ 1076  cd day_3
+ 1077  ls
+ 1078  history
+ 1079  su -
+ 1080  vi NOTES 
+ 1081  vi STEPS 
+ 1082  vi NOTES 
+ 1083  dnf install nfs* -y
+ 1084  sudo dnf install nfs* -y
+ 1085  sudo dnf install autofs* -y
+ 1086  mkdir -p /automount/private
+ 1087  sudo mkdir -p /automount/private
+ 1088  sudo mkdir -p /automount/public
+ 1089  clear
+ 1090  vi /etc/auto.master
+ 1091  sudo vi /etc/auto.master
+ 1092  vi /etc/auto.automount
+ 1093  sudo vi /etc/auto.automount
+ 1094  showmount -e
+ 1095  showmount -e nfs.lab.example.com
+ 1096  vi /etc/auto.automount
+ 1097  sudo vi /etc/auto.master
+ 1098  vi /etc/auto.automount
+ 1099  showmount -e nfs.lab.example.com
+ 1100  ping nfs.lab.example.com
+ 1101  vi /etc/auto.automount
+ 1102  $ sudo systemctl status rpcbind
+ 1103  $ sudo systemctl status nfs-server
+ 1104   sudo systemctl status nfs-server
+ 1105   sudo systemctl start nfs-server
+ 1106   sudo systemctl status nfs-server
+ 1107  $ sudo systemctl status rpcbind
+ 1108   sudo systemctl status rpcbind
+ 1109  showmount -e nfs.lab.example.com
+ 1110  ls
+ 1111  cat NOTES 
+ 1112  sudo vi /etc/auto.master
+ 1113  ls
+ 1114  clear
+ 1115  history
+ 1116  cat NOTES 
+ 1117  cat STEPS 
+ 1118  ifconfig 
+ 1119  man logrotate
+ 1120  logrotate --version
+ 1121  cat /etc/logrotate.conf
+ 1122  sudo vi /etc/logrotate.conf
+ 1123  ls /etc/logrotate.d/
+ 1124  man nmcli
+ 1125  man nmcli-examples 
+ 1126  cat STEPS 
+ 1127  nmcli connection show
+ 1128  nmcli connection modify enp0s3 
+ 1129  #nmcli connection modify enp0s3 
+ 1130  ip a
+ 1131  nmcli device status
+ 1132  nmcli connection show --active
+ 1133  nmcli connection modify docker +ipv4.addresses 10.1.1.1
+ 1134  nmcli connection modify docker0 +ipv4.addresses 10.1.1.1
+ 1135  sudo nmcli connection modify docker0 +ipv4.addresses 10.1.1.1
+ 1136  ip a
+ 1137  sudo nmcli connection modify docker0 -ipv4.addresses 10.1.1.1
+ 1138  ip a
+ 1139  sudo nmcli connection modify docker0 -ipv4.addresses 10.1.1.1
+ 1140  nmcli connection reload
+ 1141  sudo nmcli connection reload
+ 1142  ip a
+ 1143  sudo nmcli connection modify docker0 -ipv4.addresses 10.1.1.1/32
+ 1144  ip a
+ 1145  sudo nmcli connection modify docker0 -ipv4.addresses "10.1.1.1/32"
+ 1146  ip a
+ 1147  nmcli con mod docker0 -ipv4.addresses. 10.1.1.1/32
+ 1148  nmcli con mod docker0 -ipv4.addresses 10.1.1.1/32
+ 1149  sudo nmcli con mod docker0 -ipv4.addresses 10.1.1.1/32
+ 1150  ip a
+ 1151  nmcli con up docker0 
+ 1152  sudo nmcli con up docker0 
+ 1153  ip a
+ 1154  clear
+ 1155  cat NOTES 
+ 1156  vi NOTES 
+ 1157  tcpdump
+ 1158  sudo tcpdump
+ 1159  clear
+ 1160  ping 127.0.0.1
+ 1161  ping 127.0.0.2
+ 1162  ping 127.0.0.3
+ 1163  dig 127.0.0.2
+ 1164  nslookup
+ 1165  nslookup 127.0.0.1
+ 1166  nslookup 127.0.0.2
+ 1167  nslookup 127.0.0.3
+ 1168  tcpdump -i enp0s3 
+ 1169  sudo tcpdump -i enp0s3 
+ 1170  clear
+ 1171  ethtool 
+ 1172  man ethtool
+ 1173  ethtool enp0s3 
+ 1174  cat /etc/nsswitch.conf
+ 1175  tar cvf day3 .
+ 1176  ls
+ 1177  tar cvf day3.tar .
+ 1178  ls
+ 1179  df -h
+ 1180  cd ../
+ 1181  ls
+ 1182  tar cvf dat2.tar .
+ 1183  cd ..
+ 1184  cd RHCSA/
+ 1185  ls
+ 1186  cd day_3/
+ 1187  ls
+ 1188  cd day_2
+ 1189  ls
+ 1190  cd ..
+ 1191  ls
+ 1192  cd day_2
+ 1193  ls
+ 1194  tar cvf day_2.tar .
+ 1195  ls
+ 1196  cd ,,
+ 1197  cd ..
+ 1198  ls
+ 1199  rm -rf dat2.tar 
+ 1200  cd day_1
+ 1201  tar cvf day_1.tar .
+ 1202  ls
+ 1203  cd ../day_3
+ 1204  ls
+ 1205  rm -rd .tar
+ 1206  rm -rf .tar
+ 1207  cd ../day_2
+ 1208  ls
+ 1209  ls -ltr
+ 1210  gzip day_2.tar 
+ 1211  ls -ltr
+ 1212  rm -rf day_2.tar.gz 
+ 1213  cd ../day_1
+ 1214  ls
+ 1215  rm -rf day_1.tar 
+ 1216  ls
+ 1217  cd ..
+ 1218  ls
+ 1219  cd day_3/
+ 1220  ls
+ 1221  rm -rf day3.tar 
+ 1222  cat day3 
+ 1223  ls
+ 1224  mv day3 mv day_3
+ 1225  cay day3 
+ 1226  ls
+ 1227  cat day3 
+ 1228  cat NOTES 
+ 1229  rm -rf day3 
+ 1230  ls
+ 1231  cat NOTES 
+ 1232  rmdir 
+ 1233  ls
+ 1234  cat NOTES 
+ 1235  cat STEPS 
+ 1236  vi STEPS 
+ 1237  history > history
